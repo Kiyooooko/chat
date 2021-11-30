@@ -1,0 +1,32 @@
+{
+  "name": "chatik",
+  "version": "1.0.0",
+  "description": "NodeJS chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "Olena Shchadylo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bluebird": "^3.7.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.1",
+    "nunjucks": "^3.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
